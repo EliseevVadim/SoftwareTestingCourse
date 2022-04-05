@@ -1,0 +1,16 @@
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\bin\Debug\net5.0\Lab2.ProductionCode.exe
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\bin\Debug\net5.0\Lab2.ProductionCode.deps.json
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\bin\Debug\net5.0\Lab2.ProductionCode.runtimeconfig.json
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\bin\Debug\net5.0\Lab2.ProductionCode.runtimeconfig.dev.json
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\bin\Debug\net5.0\Lab2.ProductionCode.dll
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\bin\Debug\net5.0\ref\Lab2.ProductionCode.dll
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\bin\Debug\net5.0\Lab2.ProductionCode.pdb
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\obj\Debug\net5.0\Lab2.ProductionCode.csproj.AssemblyReference.cache
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\obj\Debug\net5.0\Lab2.ProductionCode.GeneratedMSBuildEditorConfig.editorconfig
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\obj\Debug\net5.0\Lab2.ProductionCode.AssemblyInfoInputs.cache
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\obj\Debug\net5.0\Lab2.ProductionCode.AssemblyInfo.cs
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\obj\Debug\net5.0\Lab2.ProductionCode.csproj.CoreCompileInputs.cache
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\obj\Debug\net5.0\Lab2.ProductionCode.dll
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\obj\Debug\net5.0\ref\Lab2.ProductionCode.dll
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\obj\Debug\net5.0\Lab2.ProductionCode.pdb
+D:\SoftwareTesting\Lab2\Lab2.ProductionCode\obj\Debug\net5.0\Lab2.ProductionCode.genruntimeconfig.cache

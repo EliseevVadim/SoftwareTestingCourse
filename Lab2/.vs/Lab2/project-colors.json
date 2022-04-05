@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "02f58caf-de58-4f32-9717-f8c7940e173b": {
+      "ProjectGuid": "02f58caf-de58-4f32-9717-f8c7940e173b",
+      "DisplayName": "Lab2.ProductionCode",
+      "ColorIndex": 0
+    },
+    "cc013424-2934-4407-b634-55743196cf57": {
+      "ProjectGuid": "cc013424-2934-4407-b634-55743196cf57",
+      "DisplayName": "Lab2.Tests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
