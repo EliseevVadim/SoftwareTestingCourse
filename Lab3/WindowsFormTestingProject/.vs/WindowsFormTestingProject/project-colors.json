@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5501c7e2-a8fb-4076-806a-414bf889cedd": {
+      "ProjectGuid": "5501c7e2-a8fb-4076-806a-414bf889cedd",
+      "DisplayName": "FilePathTester",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "f62e83f9-1c01-4ae2-8add-bee34bc3cdc0": {
+      "ProjectGuid": "f62e83f9-1c01-4ae2-8add-bee34bc3cdc0",
+      "DisplayName": "FilePathTesterTestStackWhite",
+      "ColorIndex": 1
+    },
+    "22ef9ca7-4016-4e05-bc17-27ac5839ff49": {
+      "ProjectGuid": "22ef9ca7-4016-4e05-bc17-27ac5839ff49",
+      "DisplayName": "FilePathTester",
+      "ColorIndex": 2
+    },
+    "25999432-36a5-4130-b2ab-10501524a9a8": {
+      "ProjectGuid": "25999432-36a5-4130-b2ab-10501524a9a8",
+      "DisplayName": "FilePathTesterWhiteStackTest",
+      "ColorIndex": 3
+    },
+    "aa1f740d-e1cd-4d2e-a9cb-df105b6b50a4": {
+      "ProjectGuid": "aa1f740d-e1cd-4d2e-a9cb-df105b6b50a4",
+      "DisplayName": "FilePathTesterWhiteStackTestProject",
+      "ColorIndex": 4
+    },
+    "d0ffad57-2162-4287-aa1f-4c8cd24c096a": {
+      "ProjectGuid": "d0ffad57-2162-4287-aa1f-4c8cd24c096a",
+      "DisplayName": "FilePathTesterWhiteStackTestProject",
+      "ColorIndex": 5
+    },
+    "1eea9923-787c-433f-9b14-e85f22a8b6d2": {
+      "ProjectGuid": "1eea9923-787c-433f-9b14-e85f22a8b6d2",
+      "DisplayName": "FilePathTesterWhiteStackTest",
+      "ColorIndex": 6
+    },
+    "1a56f93b-d083-4655-a5f8-740127dcb257": {
+      "ProjectGuid": "1a56f93b-d083-4655-a5f8-740127dcb257",
+      "DisplayName": "FilePathTesterWhiteStackTest",
+      "ColorIndex": 7
+    },
+    "4cb4881e-f538-426e-9a16-056fbcb5e442": {
+      "ProjectGuid": "4cb4881e-f538-426e-9a16-056fbcb5e442",
+      "DisplayName": "FilePathTesterWhiteStackTest",
+      "ColorIndex": 8
+    },
+    "9654ba9b-4634-4cc7-bf39-14703575d1b5": {
+      "ProjectGuid": "9654ba9b-4634-4cc7-bf39-14703575d1b5",
+      "DisplayName": "FilePathTesterWhiteStackTest",
+      "ColorIndex": 9
+    },
+    "aabb8063-054d-4d4a-9f55-e3c3f325e47c": {
+      "ProjectGuid": "aabb8063-054d-4d4a-9f55-e3c3f325e47c",
+      "DisplayName": "FilePathTesterWhiteStackTest",
+      "ColorIndex": 10
+    }
+  },
+  "NextColorIndex": 11
+}

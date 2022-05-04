@@ -1,0 +1,77 @@
+{
+  "id": "68f9693e-2c0b-40b4-989e-0418224ca46e",
+  "version": "2.0",
+  "name": "WebSearchTest",
+  "url": "https://www.google.com/",
+  "tests": [{
+    "id": "23559940-734a-405a-8e83-05154cd9afe9",
+    "name": "Untitled",
+    "commands": [{
+      "id": "4c59839f-7095-414a-bbbd-2aa2474f2c0b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5bba686-e735-4825-95e7-4c514bfff7db",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": "unit testing"
+    }, {
+      "id": "57c0a46f-a153-404f-90d1-e03b7b47abbb",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0746d174-64c3-4d5f-b41f-f6de0bc66f2c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.yuRUbf > a[href*=\"https://en.wikipedia.org/wiki\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af54fe8e-4c6d-4699-901c-e36db80a3943",
+      "comment": "",
+      "command": "click",
+      "target": "css=.yuRUbf > a[href*=\"https://en.wikipedia.org/wiki\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62c2efff-96d7-41ab-8c56-7dee6e2b2647",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [],
+      "value": "NUnit"
+    }, {
+      "id": "25101018-2e2d-4d38-b08c-bc7b7c5af04d",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchButton",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0226129a-4310-4f12-aabb-f3e4ab5305d6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=div > ul > li.interlanguage-link > a[lang=\"ru\"]",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7ffc626a-59b8-4454-a04d-a39af6b18b7d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["23559940-734a-405a-8e83-05154cd9afe9"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
