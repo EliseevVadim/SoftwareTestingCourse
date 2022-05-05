@@ -188,13 +188,13 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("I press add button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 21
- testRunner.And("I selecting item on valid paths list box with text \"input\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I selecting item on valid paths list box with text \"d://removing/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 22
  testRunner.And("I press remove from valid paths list button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 23
- testRunner.Then("the items count on valid paths list box should be 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the items count on valid paths list box should be 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -234,13 +234,13 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("I press add button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 28
- testRunner.And("I selecting item on invalid paths list box with text \"input\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I selecting item on invalid paths list box with text \"removing/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 29
  testRunner.And("I press remove from invalid paths list button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 30
- testRunner.Then("the items count on invalid paths list box should be 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the items count on invalid paths list box should be 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -470,13 +470,13 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("I press add button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 55
- testRunner.And("I selecting item on invalid paths list box with text \"input\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I selecting item on invalid paths list box with text \"incorrect_for_move\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 56
  testRunner.And("I press back button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 57
- testRunner.Then("the items count on invalid paths list box should be 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the items count on invalid paths list box should be 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 58
  testRunner.And("the text content on textbox should be \"incorrect_for_move\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -519,7 +519,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("I press add button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 63
- testRunner.And("I selecting item on valid paths list box with text \"input\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I selecting item on valid paths list box with text \"c:\\\\correct\\move\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 64
  testRunner.And("I press move button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

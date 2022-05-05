@@ -18,16 +18,16 @@ Scenario: Add invalid path to invalid paths list box
 Scenario: Remove item from valid paths list box
 	Given I have entered "d://removing/" to text field
 	When I press add button
-	And I selecting item on valid paths list box with text "input"
+	And I selecting item on valid paths list box with text "d://removing/"
 	And I press remove from valid paths list button
-	Then the items count on valid paths list box should be 0
+	Then the items count on valid paths list box should be 1
 
 Scenario: Remove item from invalid paths list box
 	Given I have entered "removing/" to text field
 	When I press add button
-	And I selecting item on invalid paths list box with text "input"
+	And I selecting item on invalid paths list box with text "removing/"
 	And I press remove from invalid paths list button
-	Then the items count on invalid paths list box should be 0
+	Then the items count on invalid paths list box should be 1
 
 Scenario: Try to add empty item to paths listbox
 	Given I press add button without entering of any path to textbox
@@ -52,15 +52,15 @@ Scenario: Try to move not selected item from valid path listbox to invalid paths
 Scenario: Try to move path from invalid paths listbox to textbox for another check
 	Given I have entered "incorrect_for_move" to text field
 	When I press add button
-	And I selecting item on invalid paths list box with text "input"
+	And I selecting item on invalid paths list box with text "incorrect_for_move"
 	And I press back button
-	Then the items count on invalid paths list box should be 0
+	Then the items count on invalid paths list box should be 1
 	And the text content on textbox should be "incorrect_for_move"
 
 Scenario: Try to move path from valid paths listbox to invalid paths listbox
 	Given I have entered "c:\\correct\move" to text field
 	When I press add button
-	And I selecting item on valid paths list box with text "input"
+	And I selecting item on valid paths list box with text "c:\\correct\move"
 	And I press move button
 	Then the items count on invalid paths list box should be 2
 	And the items count on valid paths list box should be 1

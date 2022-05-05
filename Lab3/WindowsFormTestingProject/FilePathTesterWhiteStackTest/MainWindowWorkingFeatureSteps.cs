@@ -11,19 +11,19 @@ namespace FilePathTesterWhiteStackTest
     [Binding]
     public class MainWindowWorkingFeatureSteps
     {
-        private Application _app;
-        private Window _window;
-        private TextBox _inputField;
-        private Button _addButton;
-        private Button _removeFromValidListButton;
-        private Button _removeFromInvalidListButton;
-        private Button _moveButton;
-        private Button _backButton;
-        private ListBox _validPaths;
-        private ListBox _invalidPaths;
+        private static Application _app;
+        private static Window _window;
+        private static TextBox _inputField;
+        private static Button _addButton;
+        private static Button _removeFromValidListButton;
+        private static Button _removeFromInvalidListButton;
+        private static Button _moveButton;
+        private static Button _backButton;
+        private static ListBox _validPaths;
+        private static ListBox _invalidPaths;
 
-        [OneTimeSetUp]
-        public void Setup()
+        [BeforeFeature]
+        public static void Setup()
         {
             _app = Application.Launch(@"D:\SoftwareTesting\Lab3\WindowsFormTestingProject\FilePathTester\bin\Debug\FilePathTester.exe");
             _window = _app.GetWindow("FilePathTester");
@@ -37,8 +37,8 @@ namespace FilePathTesterWhiteStackTest
             _invalidPaths = _window.Get<ListBox>("invalidPaths");
         }
 
-        [OneTimeTearDown]
-        public void Quit()
+        [AfterFeature]
+        public static void Quit()
         {
             _app.Close();
         }
